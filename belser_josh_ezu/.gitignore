@@ -1,3 +1,17 @@
+# Ignore virtual environments
+.venv/
+env/
+
+# Ignore DB files
+*.sqlite3
+
+# Ignore collected static files
+/static/
+**/static/
+
+# Ignore zip files
+*.zip
+
 *.pyc
 *~
 __pycache__
